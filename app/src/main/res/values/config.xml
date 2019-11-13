@@ -1,0 +1,3 @@
+<resources>
+    <string name="server_url" translatable="false">https://api.spacexdata.com/</string>
+</resources>

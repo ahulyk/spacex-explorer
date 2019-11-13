@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetEnd="@layout/collapsing_toolbar_end"
+        app:constraintSetStart="@layout/collapsing_toolbar_start"
+        app:duration="500">
+
+        <OnSwipe
+            app:dragDirection="dragUp"
+            app:touchAnchorId="@id/dragView"
+            app:touchAnchorSide="top" />
+
+        <KeyFrameSet>
+            <KeyAttribute
+                android:alpha="0.7"
+                app:framePosition="30"
+                app:motionTarget="@id/titleTxt" />
+            <KeyAttribute
+                android:translationX="70dp"
+                app:framePosition="20"
+                app:motionTarget="@id/titleTxt" />
+
+            <KeyAttribute
+                android:alpha="0.8"
+                app:framePosition="40"
+                app:motionTarget="@id/descriptionTxt" />
+            <KeyAttribute
+                android:translationX="90dp"
+                app:framePosition="40"
+                app:motionTarget="@id/descriptionTxt" />
+
+        </KeyFrameSet>
+
+    </Transition>
+
+</MotionScene>

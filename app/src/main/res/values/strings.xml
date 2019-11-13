@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SpaceX launch explorer</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+
+    <string name="chart_fragment_title_last_year_launches_statistics">Last year launches statistics:</string>
+
+    <string name="details_fragment_subtitle">Launch date: %1$s</string>
+    <string name="details_fragment_download_images_btn">Download images</string>
+    <string name="details_fragment_success">Launch status: Success</string>
+    <string name="details_fragment_failure">Launch status: Failure</string>
+    <string name="details_fragment_upcoming">Launch status: Upcoming</string>
+
+    <string name="download_image_notification_title">SpaceX Launch Photo</string>
+
+    <string name="no_internet_connection_error">Houston, we have a problem</string>
+    <string name="retry_btn">retry</string>
+
+    <string name="no_details_available">No details for that Launch are available :(</string>
+    <string name="no_details_available_future">Look like there are no details for that future Launch :(</string>
+
+</resources>
